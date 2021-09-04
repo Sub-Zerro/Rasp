@@ -398,7 +398,34 @@ eightV8 = eightV8[100];
 console.log(eightV8);
 
 
+// Выделяем элементы кнопок с классами
 
+let B6a = document.getElementById("6a");
+console.log(B6a);
+
+let B6b = document.getElementById("6b");
+console.log(B6b);
+
+let B6v = document.getElementById("6v");
+console.log(B6v);
+
+let B7a = document.getElementById("7a");
+console.log(B7a);
+
+let B7b = document.getElementById("7b");
+console.log(B7b);
+
+let B7v = document.getElementById("7v");
+console.log(B7v);
+
+let B8a = document.getElementById("8a");
+console.log(B8a);
+
+let B8b = document.getElementById("8b");
+console.log(B8b);
+
+let B8v = document.getElementById("8v");
+console.log(B8v);
 
 
 
