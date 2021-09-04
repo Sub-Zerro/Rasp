@@ -9,257 +9,257 @@
         body{
             background-color: aliceblue;
         }
-    .Rasp{
-        padding: 30px;
-    }
-    table {
-font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-font-size: 14px;
-border-collapse: collapse;
-text-align: center;
-}
-th, td:first-child {
-background: white;
-color: black;
-padding: 10px 20px;
-}
-th, td {
-border-style: solid;
-border-width: 1px 1px 1px 1px ;
-border-color: black;
-}
-th:first-child, td:first-child {
-text-align: left;
-}
+        .Rasp{
+            padding: 30px;
+        }
+        table {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+            font-size: 14px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        th, td:first-child {
+            background: white;
+            color: black;
+            padding: 10px 20px;
+        }
+        th, td {
+            border-style: solid;
+            border-width: 1px 1px 1px 1px ;
+            border-color: black;
+        }
+        th:first-child, td:first-child {
+            text-align: left;
+        }
         .dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
+            background-color: #3498DB;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
 
-.dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-}
+        .dropbtn:hover, .dropbtn:focus {
+            background-color: #2980B9;
+        }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
 
-.dropdown a:hover {background-color: #ddd;}
+        .dropdown a:hover {background-color: #ddd;}
 
-.show {display: block;}
-        
+        .show {display: block;}
+
         a.buttons {
-  width: 150px;
-  height: 50px;
-  text-decoration: none;
-  padding-top: 9px;
-  color: white;
-  text-align: center;
-  line-height: 20px;
-  display: inline-block;
-  margin: 20px auto;
-  font: normal 17px arial;
-}
-a.buttons:not(.active) {
-  box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
-  background-image: linear-gradient(#18d5f1, #00f2ff);
-  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
-}
-a.buttons:not(.active):hover,
-a.buttons:not(.active):focus {
-  transition: color 200ms linear, text-shadow 500ms linear;
-  color: #fff;
-  text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
-}
-a.buttons:not(:hover) {
-    transition: 0.6s;
-}
+            width: 150px;
+            height: 50px;
+            text-decoration: none;
+            padding-top: 9px;
+            color: white;
+            text-align: center;
+            line-height: 20px;
+            display: inline-block;
+            margin: 20px auto;
+            font: normal 17px arial;
+        }
+        a.buttons:not(.active) {
+            box-shadow: inset 0 1px 1px rgba(111, 55, 125, 0.8), inset 0 -1px 0px rgba(63, 59, 113, 0.2), 0 9px 16px 0 rgba(0, 0, 0, 0.3), 0 4px 3px 0 rgba(0, 0, 0, 0.3), 0 0 0 1px #150a1e;
+            background-image: linear-gradient(#18d5f1, #00f2ff);
+            text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 -1px 0 #311d47;
+        }
+        a.buttons:not(.active):hover,
+        a.buttons:not(.active):focus {
+            transition: color 200ms linear, text-shadow 500ms linear;
+            color: #fff;
+            text-shadow: 0 0 21px rgba(223, 206, 228, 0.5), 0 0 10px rgba(223, 206, 228, 0.4), 0 0 2px #2a153c;
+        }
+        a.buttons:not(:hover) {
+            transition: 0.6s;
+        }
     </style>
 </head>
 <body>
-     <a class="buttons" href='https://sub-zerro.github.io/Rasp1/' >Переключиться на 1 смену</a>
-    <h2 class ="Rasp">
-        Расписание <div class="dropdown">
-<button onclick="myFunction()" class="dropbtn">Класс</button>
-  <div id="myDropdown" class="dropdown-content">
-    <a href="#" id="6a">6а</a>
-    <a href="#" id="6b">6б</a>
-    <a href="#" id="6v">6в</a>
-    <a href="#" id="7a">7а</a>
-    <a href="#" id="7b">7б</a>
-    <a href="#" id="7v">7в</a>
-    <a href="#" id="8a">8а</a>
-    <a href="#" id="8b">8б</a>
-    <a href="#" id="8v">8в</a>
-  </div>
+<a class="buttons" href='https://sub-zerro.github.io/Rasp1/' >Переключиться на 1 смену</a>
+<h2 class ="Rasp">
+    Расписание <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Класс</button>
+    <div id="myDropdown" class="dropdown-content">
+        <a href="#" id="6a">6а</a>
+        <a href="#" id="6b">6б</a>
+        <a href="#" id="6v">6в</a>
+        <a href="#" id="7a">7а</a>
+        <a href="#" id="7b">7б</a>
+        <a href="#" id="7v">7в</a>
+        <a href="#" id="8a">8а</a>
+        <a href="#" id="8b">8б</a>
+        <a href="#" id="8v">8в</a>
+    </div>
 </div>
-    </h2>
-   
+</h2>
+
 
 <script>
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-}
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
     }
-  }
-}
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+                var openDropdown = dropdowns[i];
+                if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                }
+            }
+        }
+    }
 </script>
 
-    <table>
-        <tr>
-            <th></th>
-            <th>№</th>
-            <th>Время</th>
-            <th>6а</th>
-            <th>6б</th>
-            <th>6в</th>
-            <th>7а</th>
-            <th>7б</th>
-            <th>7в</th>
-            <th>8а</th>
-            <th>8б</th>
-            <th>8в</th>
-        </tr>
-        <tr>
-            <th rowspan="8" >День Недели</th>
-            <th>0</th>
-            <th>13:45-14:15</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>1</th>
-            <th>14:30-15:00</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>2</th>
-            <th>15:15-15:45</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>3</th>
-            <th>16:00-16:30</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>4</th>
-            <th>16:45-17:15</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>5</th>
-            <th>17:30-18:00</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>6</th>
-            <th>18:05-18:35</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-        <tr>
-            <th>7</th>
-            <th>18:40-19:10</th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr>
-    </table>
-    
-    <script src="script.js"></script>
-    
+<table>
+    <tr>
+        <th></th>
+        <th>№</th>
+        <th>Время</th>
+        <th>6а</th>
+        <th>6б</th>
+        <th>6в</th>
+        <th>7а</th>
+        <th>7б</th>
+        <th>7в</th>
+        <th>8а</th>
+        <th>8б</th>
+        <th>8в</th>
+    </tr>
+    <tr>
+        <th rowspan="8" >День Недели</th>
+        <th>0</th>
+        <th>13:45-14:15</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>1</th>
+        <th>14:30-15:00</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>2</th>
+        <th>15:15-15:45</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>3</th>
+        <th>16:00-16:30</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>4</th>
+        <th>16:45-17:15</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>5</th>
+        <th>17:30-18:00</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>6</th>
+        <th>18:05-18:35</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <th>7</th>
+        <th>18:40-19:10</th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </tr>
+</table>
+
+<script src="script.js"></script>
+
 </body>
 </html>
